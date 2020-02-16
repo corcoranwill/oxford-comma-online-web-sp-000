@@ -5,7 +5,7 @@ def oxford_comma(array)
     # adds first element in array to an empty string
     string << element
     puts string
-    if counter == array.length
+    if counter == array[-1]
       string << "and"
       puts string
     end
