@@ -2,19 +2,6 @@ def oxford_comma(array)
   string = ""
   counter = 0
   array.each do |element|
-    string << element
-    if counter >= 1
-      string << "and"
-    end
-    counter += 1
-  end
-  string
-end
-
-def oxford_comma(array)
-  string = ""
-  counter = 0
-  array.each do |element|
     # adds first element in array to an empty string
     string << element
     if counter == array.length
