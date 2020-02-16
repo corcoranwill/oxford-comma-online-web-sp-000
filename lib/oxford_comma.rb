@@ -4,7 +4,7 @@ def oxford_comma(array)
   array.each do |element|
     string << element
     if counter >= 1
-      string << ","
+      string << "and"
     end
     counter += 1
   end
