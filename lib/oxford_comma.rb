@@ -1,6 +1,6 @@
 # utilize array.count (returns the number of elements in array)
 # =>could also use array.length or array.size
-# utilize 
+# utilize
 
 def oxford_comma(array)
   if array.count == 1
