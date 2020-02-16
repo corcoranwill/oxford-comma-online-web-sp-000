@@ -8,6 +8,7 @@ def oxford_comma(array)
     string << "and"
     string << array[1]
   end
+  puts string
   string
 end
 
@@ -15,18 +16,18 @@ end
 
 
 
-def oxford_comma(array)
-  string = ""
-  counter = 0
-  array.each do |element|
-    case array.length
-    when array.length == 0
-      "string1"
-    when array.length == 1
-      "string1 and string2"
-    else
-      "string1, string2, string3, string4, and string5"
-    end
+# def oxford_comma(array)
+#   string = ""
+#   counter = 0
+#   array.each do |element|
+#     case array.length
+#     when array.length == 0
+#       "string1"
+#     when array.length == 1
+#       "string1 and string2"
+#     else
+#       "string1, string2, string3, string4, and string5"
+#     end
 
 
 
