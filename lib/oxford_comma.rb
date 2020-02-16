@@ -9,8 +9,8 @@ def oxford_comma(array)
       string << "and"
       puts string
     end
-    if counter >= 1
-      string << ","
+    if counter > 0
+      string << ", "
       puts string
     end
     counter += 1
